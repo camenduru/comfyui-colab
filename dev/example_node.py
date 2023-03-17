@@ -64,12 +64,12 @@ class Example:
 
     @classmethod
     def INPUT_TYPES(s):
-        return {"required": {"text": ("STRING", {"multiline": True})}}
-    RETURN_TYPES = ("STRING",)
+        return {"required": {"image": ("IMAGE",), "text": ("STRING", {"multiline": True})}}
+    RETURN_TYPES = ("IMAGE",)
     FUNCTION = "execute"
-    def execute(self, text):
+    def execute(self, image, text):
         print(text)
-        return (text,)
+        return (image,)
 
 
 
