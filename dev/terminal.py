@@ -9,8 +9,8 @@ class Terminal:
         return {"required": {"image": ("IMAGE",), "text": ("STRING", {"multiline": True})}}
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "execute"
-    def execute(self, image, command):
-        out = getoutput(f"{command}")
+    def execute(self, image, text):
+        out = getoutput(f"{text}")
         print(out)
         return image
 
