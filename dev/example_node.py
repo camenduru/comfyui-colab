@@ -27,57 +27,70 @@ class Example:
     def __init__(self):
         pass
     
+    # @classmethod
+    # def INPUT_TYPES(s):
+    #     """
+    #         Return a dictionary which contains config for all input fields.
+    #         Some types (string): "MODEL", "VAE", "CLIP", "CONDITIONING", "LATENT", "IMAGE", "INT", "STRING", "FLOAT".
+    #         Input types "INT", "STRING" or "FLOAT" are special values for fields on the node.
+    #         The type can be a list for selection.
+
+    #         Returns: `dict`:
+    #             - Key input_fields_group (`string`): Can be either required, hidden or optional. A node class must have property `required`
+    #             - Value input_fields (`dict`): Contains input fields config:
+    #                 * Key field_name (`string`): Name of a entry-point method's argument
+    #                 * Value field_config (`tuple`):
+    #                     + First value is a string indicate the type of field or a list for selection.
+    #                     + Secound value is a config for type "INT", "STRING" or "FLOAT".
+    #     """
+    #     return {
+    #         "required": {
+    #             "image": ("IMAGE",),
+    #             "int_field": ("INT", {
+    #                 "default": 0, 
+    #                 "min": 0, #Minimum value
+    #                 "max": 4096, #Maximum value
+    #                 "step": 64 #Slider's step
+    #             }),
+    #             "float_field": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 10.0, "step": 0.01}),
+    #             "print_to_screen": (["enable", "disable"],),
+    #             "string_field": ("STRING", {
+    #                 "multiline": False, #True if you want the field to look like the one on the ClipTextEncode node
+    #                 "default": "Hello World!"
+    #             }),
+    #         },
+    #     }
+
+
     @classmethod
     def INPUT_TYPES(s):
-        """
-            Return a dictionary which contains config for all input fields.
-            Some types (string): "MODEL", "VAE", "CLIP", "CONDITIONING", "LATENT", "IMAGE", "INT", "STRING", "FLOAT".
-            Input types "INT", "STRING" or "FLOAT" are special values for fields on the node.
-            The type can be a list for selection.
+        return {"required": {"text": ("STRING", {"multiline": True})}}
+    RETURN_TYPES = ("STRING",)
+    FUNCTION = "execute"
+    def execute(self, text):
+        print(text)
+        return (text,)
 
-            Returns: `dict`:
-                - Key input_fields_group (`string`): Can be either required, hidden or optional. A node class must have property `required`
-                - Value input_fields (`dict`): Contains input fields config:
-                    * Key field_name (`string`): Name of a entry-point method's argument
-                    * Value field_config (`tuple`):
-                        + First value is a string indicate the type of field or a list for selection.
-                        + Secound value is a config for type "INT", "STRING" or "FLOAT".
-        """
-        return {
-            "required": {
-                "image": ("IMAGE",),
-                "int_field": ("INT", {
-                    "default": 0, 
-                    "min": 0, #Minimum value
-                    "max": 4096, #Maximum value
-                    "step": 64 #Slider's step
-                }),
-                "float_field": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 10.0, "step": 0.01}),
-                "print_to_screen": (["enable", "disable"],),
-                "string_field": ("STRING", {
-                    "multiline": False, #True if you want the field to look like the one on the ClipTextEncode node
-                    "default": "Hello World!"
-                }),
-            },
-        }
 
-    RETURN_TYPES = ("IMAGE",)
-    FUNCTION = "test"
+
+
+    # RETURN_TYPES = ("IMAGE",)
+    # FUNCTION = "test"
 
     #OUTPUT_NODE = False
 
     CATEGORY = "Example"
 
-    def test(self, image, string_field, int_field, float_field, print_to_screen):
-        if print_to_screen == "enable":
-            print(f"""Your input contains:
-                string_field aka input text: {string_field}
-                int_field: {int_field}
-                float_field: {float_field}
-            """)
-        #do some processing on the image, in this example I just invert it
-        image = 1.0 - image
-        return (image,)
+    # def test(self, image, string_field, int_field, float_field, print_to_screen):
+    #     if print_to_screen == "enable":
+    #         print(f"""Your input contains:
+    #             string_field aka input text: {string_field}
+    #             int_field: {int_field}
+    #             float_field: {float_field}
+    #         """)
+    #     #do some processing on the image, in this example I just invert it
+    #     image = 1.0 - image
+    #     return (image,)
 
 
 # A dictionary that contains all nodes you want to export with their names
