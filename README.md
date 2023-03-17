@@ -125,5 +125,8 @@
 ## Tutorial
 [https://comfyanonymous.github.io/ComfyUI_tutorial_vn](https://comfyanonymous.github.io/ComfyUI_tutorial_vn)
 
+## Examples
+[https://github.com/comfyanonymous/ComfyUI_examples](https://github.com/comfyanonymous/ComfyUI_examples)
+
 ## Models License
 https://huggingface.co/spaces/CompVis/stable-diffusion-license
