@@ -3,6 +3,11 @@
 
 ## 🚦 WIP 🚦
 
+## 🦒 Template
+| image | json | Info
+| --- | --- | --- |
+<img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/1.png" height="350" /> | [JSON File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/1.json) | Vae And Upscale
+
 ## 🦒 Colab
 | lite | Info - Token - Model Page
 | --- | --- |
