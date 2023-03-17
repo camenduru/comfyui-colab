@@ -12,7 +12,7 @@ class Terminal:
     def execute(self, image, text):
         out = getoutput(f"{text}")
         print(out)
-        return image
+        return (image, )
 
     CATEGORY = "Tools"
 
