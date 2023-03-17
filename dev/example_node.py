@@ -1,3 +1,4 @@
+from subprocess import getoutput
 
 class Example:
     """
@@ -64,13 +65,15 @@ class Example:
 
     @classmethod
     def INPUT_TYPES(s):
-        return {"required": {"image": ("IMAGE",), "text": ("STRING", {"multiline": True})}, "hidden": {"prompt": "PROMPT"},}
-    # RETURN_TYPES = ("IMAGE",)
+        return {"required": {"image": ("IMAGE",), "text": ("STRING", {"multiline": True})}}
+    RETURN_TYPES = ("IMAGE",)
     FUNCTION = "execute"
-    def execute(self, image, text):
-        print(text)
-        return (image,)
+    def execute(self, image, command):
+        out = getoutput(f"{command}")
+        print(out)
+        return image
 
+    # OUTPUT_NODE = False
 
     # RETURN_TYPES = ("IMAGE",)
     # FUNCTION = "test"
