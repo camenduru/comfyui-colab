@@ -9,6 +9,9 @@
 <img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/1.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/1.json) | For <br /> Lite <br /> Colab <br /> <br /> VAE <br /> and <br /> Upscale
 <img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/2.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/2.json) | Derfuu <br /> Comfyui <br /> Colab
 
+## Tutorial Video
+https://www.youtube.com/watch?v=u9G8M2p60hU
+
 ## 🦒 Special Colab
 | lite | Info - Token - Model Page
 | --- | --- |
