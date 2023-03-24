@@ -12,7 +12,7 @@
 ## 🦒 Special Colab
 | lite | Info - Token - Model Page
 | --- | --- |
-[![Open In Colab](https://user-images.githubusercontent.com/54370274/224839806-8720fb19-9c7d-46a2-8d7c-de3afb39c11f.svg)](https://colab.research.google.com/github/camenduru/comfyui-colab/blob/main/special/derfuu_comfyui_colab.ipynb) | derfuu_comfyui_colab <br /> [Derfuu/comfyui-derfuu-math-and-modded-nodes](https://civitai.com/models/21558/comfyui-derfuu-math-and-modded-nodes)
+[![Open In Colab](https://user-images.githubusercontent.com/54370274/224839806-8720fb19-9c7d-46a2-8d7c-de3afb39c11f.svg)](https://colab.research.google.com/github/camenduru/comfyui-colab/blob/main/special/derfuu_comfyui_colab.ipynb) | derfuu_comfyui_colab <br /> nodes: [Derfuu/comfyui-derfuu-math-and-modded-nodes](https://civitai.com/models/21558/comfyui-derfuu-math-and-modded-nodes) <br /> model: [cheesedaddy/cheese-daddys-landscapes-mix](https://civitai.com/models/5041/cheese-daddys-landscapes-mix)
 
 ## 🦒 Colab
 | lite | Info - Token - Model Page
