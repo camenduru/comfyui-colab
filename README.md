@@ -8,6 +8,7 @@
 | --- | --- | :---: |
 <img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/1.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/1.json) | For <br /> Lite <br /> Colab <br /> <br /> VAE <br /> and <br /> Upscale
 <img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/2.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/2.json) | Derfuu <br /> Comfyui <br /> Colab
+<img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/3.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/3.json) | For <br /> Stable <br /> Colab <br /> <br /> ControlNet
 
 ## Tutorial Video
 https://www.youtube.com/watch?v=u9G8M2p60hU
@@ -130,11 +131,11 @@ https://www.youtube.com/watch?v=u9G8M2p60hU
 [![Open In Colab](https://user-images.githubusercontent.com/54370274/224839806-8720fb19-9c7d-46a2-8d7c-de3afb39c11f.svg)](https://colab.research.google.com/github/camenduru/comfyui-colab/blob/main/lite/cetus_mix_v3_1_comfyui_colab.ipynb) | [![Open In Colab](https://user-images.githubusercontent.com/54370274/224839804-50c0c18b-3960-4a1c-b7fa-3c7074b11779.svg)](https://colab.research.google.com/github/camenduru/comfyui-colab/blob/main/stable/cetus_mix_v3_1_comfyui_colab.ipynb) | cetus_mix_v3_1_comfyui_colab <br /> (Thanks to exrecc and Mar0xy for the suggestion ❤) <br /> [Eagelaxis/cetus-mix](https://civitai.com/models/6755/cetus-mix)
 [![Open In Colab](https://user-images.githubusercontent.com/54370274/224839806-8720fb19-9c7d-46a2-8d7c-de3afb39c11f.svg)](https://colab.research.google.com/github/camenduru/comfyui-colab/blob/main/lite/faetastic_v1_comfyui_colab.ipynb) | [![Open In Colab](https://user-images.githubusercontent.com/54370274/224839804-50c0c18b-3960-4a1c-b7fa-3c7074b11779.svg)](https://colab.research.google.com/github/camenduru/comfyui-colab/blob/main/stable/faetastic_v1_comfyui_colab.ipynb) | faetastic_v1_comfyui_colab <br /> (Thanks to CitizenChained for the suggestion ❤) <br /> [Faeia/faetastic](https://civitai.com/models/14065/faetastic)
 
-## Installed Extensions
-[https://github.com/Fannovel16/comfy_controlnet_preprocessors](https://github.com/Fannovel16/comfy_controlnet_preprocessors) (Thanks to @Fannovel16 ❤)
-
 ## Comfy UI
 [https://github.com/comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) (Thanks to @comfyanonymous ❤)
+
+## Installed Extensions
+[https://github.com/Fannovel16/comfy_controlnet_preprocessors](https://github.com/Fannovel16/comfy_controlnet_preprocessors) (Thanks to @Fannovel16 ❤)
 
 ## Documentation
 [https://github.com/comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
