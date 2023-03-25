@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=u9G8M2p60hU
 ## 🦒 Special Colab
 | lite | Info - Token - Model Page
 | --- | --- |
-[![Open In Colab](https://user-images.githubusercontent.com/54370274/224839806-8720fb19-9c7d-46a2-8d7c-de3afb39c11f.svg)](https://colab.research.google.com/github/camenduru/comfyui-colab/blob/main/special/derfuu_comfyui_colab.ipynb) | derfuu_comfyui_colab <br /> nodes: [Derfuu/comfyui-derfuu-math-and-modded-nodes](https://civitai.com/models/21558/comfyui-derfuu-math-and-modded-nodes) <br /> model: [cheesedaddy/cheese-daddys-landscapes-mix](https://civitai.com/models/5041/cheese-daddys-landscapes-mix)
+[![Open In Colab](https://user-images.githubusercontent.com/54370274/227725273-a8f59a41-d2d9-444b-83ba-651ee528f7c4.svg)](https://colab.research.google.com/github/camenduru/comfyui-colab/blob/main/special/derfuu_comfyui_colab.ipynb) | derfuu_comfyui_colab <br /> nodes: [Derfuu/comfyui-derfuu-math-and-modded-nodes](https://civitai.com/models/21558/comfyui-derfuu-math-and-modded-nodes) <br /> model: [cheesedaddy/cheese-daddys-landscapes-mix](https://civitai.com/models/5041/cheese-daddys-landscapes-mix)
 
 ## 🦒 Colab
 | lite | stable | Info - Token - Model Page
