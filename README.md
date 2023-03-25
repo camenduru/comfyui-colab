@@ -14,7 +14,7 @@
 https://www.youtube.com/watch?v=u9G8M2p60hU
 
 ## 🦒 Special Colab
-| lite | Info - Token - Model Page
+| special | Info - Token - Model Page
 | --- | --- |
 [![Open In Colab](https://user-images.githubusercontent.com/54370274/227731003-33806eed-782e-4b1b-9fdf-de8d6e6691f0.svg)](https://colab.research.google.com/github/camenduru/comfyui-colab/blob/main/special/derfuu_comfyui_colab.ipynb) | derfuu_comfyui_colab <br /> nodes: [Derfuu/comfyui-derfuu-math-and-modded-nodes](https://civitai.com/models/21558/comfyui-derfuu-math-and-modded-nodes) <br /> model: [cheesedaddy/cheese-daddys-landscapes-mix](https://civitai.com/models/5041/cheese-daddys-landscapes-mix)
 
