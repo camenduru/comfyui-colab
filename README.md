@@ -20,6 +20,7 @@ https://www.youtube.com/watch?v=u9G8M2p60hU
 
 `lite` has a stable ComfyUI and stable installed extensions. <br />
 `stable` has ControlNet, a stable ComfyUI, and stable installed extensions. <br />
+`nightly` has ControlNet v1.1 the latest ComfyUI with PyTorch 2.0, and daily installed extension updates. <br />
 
 ## 🦒 Colab
 | lite | stable | nightly | Info - Token - Model Page
