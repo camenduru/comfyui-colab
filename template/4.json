@@ -1,0 +1,6494 @@
+{
+  "last_node_id": 119,
+  "last_link_id": 236,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "Integer",
+      "pos": [
+        585.2266004328964,
+        -82.96194113798964
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 1,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            43
+          ]
+        }
+      ],
+      "title": "Integer (CanvasWidth)",
+      "properties": {},
+      "widgets_values": [
+        1366
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 6,
+      "type": "Divide",
+      "pos": [
+        614.2029289629653,
+        245.9632059465576
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 5,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            4,
+            6
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 13,
+      "type": "Divide",
+      "pos": [
+        603.5720306012286,
+        648.191039523236
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 13,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            12,
+            16
+          ]
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 20,
+      "type": "Divide",
+      "pos": [
+        598.2264210237249,
+        852.6403308642596
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 16,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            17
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 17,
+      "type": "Integer",
+      "pos": [
+        845.1264961552051,
+        744.6298124570469
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 14,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            36,
+            195
+          ]
+        }
+      ],
+      "title": "Img 2 Height",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 26,
+      "type": "Integer",
+      "pos": [
+        863.9620520675775,
+        1198.7307812273664
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 180,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            40,
+            178,
+            199
+          ]
+        }
+      ],
+      "title": "Img 3 Height",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 27,
+      "type": "Integer",
+      "pos": [
+        869,
+        1408
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 56,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 236,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            103,
+            176,
+            201
+          ]
+        }
+      ],
+      "title": "Img 3 Vertical offset",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 32,
+      "type": "Divide",
+      "pos": [
+        594,
+        1590.834469629713
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 29,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            30,
+            32
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 31,
+      "type": "Divide",
+      "pos": [
+        595,
+        1695.834469629713
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 28,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            33
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Multiply",
+      "pos": [
+        627,
+        368
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value_A",
+          "type": "FLOAT",
+          "link": 4,
+          "widget": {
+            "name": "Value_A",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            8
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 33,
+      "type": "Multiply",
+      "pos": [
+        593,
+        1801.834469629713
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value_A",
+          "type": "FLOAT",
+          "link": 30,
+          "widget": {
+            "name": "Value_A",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            31
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 35,
+      "type": "Integer",
+      "pos": [
+        848,
+        1904.834469629713
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 34,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            101,
+            205
+          ]
+        }
+      ],
+      "title": "Img 3 Vertical offset",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 23,
+      "type": "Divide",
+      "pos": [
+        600.1355119328167,
+        956.1857854097141
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 19,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            20
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 41,
+      "type": "EmptyLatentImage",
+      "pos": [
+        1304.1276800000005,
+        -52.15651999999999
+      ],
+      "size": {
+        "0": 210,
+        "1": 78
+      },
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 37,
+          "widget": {
+            "name": "width",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 0
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 38,
+          "widget": {
+            "name": "height",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            81
+          ]
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        512,
+        512,
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Integer",
+      "pos": [
+        858.955473188086,
+        265.8581584771225
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 6,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            38,
+            191
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 1 Height",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 34,
+      "type": "Integer",
+      "pos": [
+        844.5529676934636,
+        1690.3966580048243
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 33,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            42,
+            203
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 4 Height",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 2,
+      "type": "Integer",
+      "pos": [
+        583.9751521339105,
+        22.157064642787883
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 2,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            44
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Integer (CanvasHeight)",
+      "properties": {},
+      "widgets_values": [
+        768
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 21,
+      "type": "Integer",
+      "pos": [
+        848.6734533302615,
+        956.1324420588501
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 52,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 20,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            105,
+            197
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 2 Vertical offset",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 44,
+      "type": "EmptyLatentImage",
+      "pos": [
+        1300.1276800000005,
+        -183.15651999999974
+      ],
+      "size": {
+        "0": 210,
+        "1": 78
+      },
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 43,
+          "widget": {
+            "name": "width",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 0
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 44,
+          "widget": {
+            "name": "height",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            77
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        512,
+        512,
+        1
+      ]
+    },
+    {
+      "id": 40,
+      "type": "EmptyLatentImage",
+      "pos": [
+        1310.1276800000005,
+        79.84348000000023
+      ],
+      "size": {
+        "0": 210,
+        "1": 78
+      },
+      "flags": {},
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 35,
+          "widget": {
+            "name": "width",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 0
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 36,
+          "widget": {
+            "name": "height",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            82
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        512,
+        512,
+        1
+      ]
+    },
+    {
+      "id": 42,
+      "type": "EmptyLatentImage",
+      "pos": [
+        1313,
+        210
+      ],
+      "size": {
+        "0": 210,
+        "1": 78
+      },
+      "flags": {},
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 39,
+          "widget": {
+            "name": "width",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 0
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 40,
+          "widget": {
+            "name": "height",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            83
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        512,
+        512,
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "type": "Integer",
+      "pos": [
+        866,
+        472
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 8,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            107,
+            193
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 1 Vertical offset",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 61,
+      "type": "KSampler",
+      "pos": [
+        2575.780525799071,
+        239.45276133597432
+      ],
+      "size": [
+        315,
+        262
+      ],
+      "flags": {},
+      "order": 61,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 123
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 119,
+          "slot_index": 1
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 90,
+          "slot_index": 2
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 81,
+          "slot_index": 3
+        },
+        {
+          "name": "denoise",
+          "type": "FLOAT",
+          "link": 129,
+          "widget": {
+            "name": "denoise",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": 0,
+                "max": 1,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            149
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        167221012901741,
+        true,
+        20,
+        8,
+        "euler",
+        "karras",
+        0.8
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Float",
+      "pos": [
+        -46.30663996600005,
+        -551.306639966
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            1,
+            7,
+            13,
+            22,
+            29,
+            222
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Float Width",
+      "properties": {},
+      "widgets_values": [
+        640
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 62,
+      "type": "KSampler",
+      "pos": [
+        2571.780525799071,
+        549.4527613359745
+      ],
+      "size": [
+        315,
+        262
+      ],
+      "flags": {},
+      "order": 62,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 125,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 120
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 89
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 82,
+          "slot_index": 3
+        },
+        {
+          "name": "denoise",
+          "type": "FLOAT",
+          "link": 130,
+          "widget": {
+            "name": "denoise",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": 0,
+                "max": 1,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            95
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        897162579488253,
+        true,
+        20,
+        8,
+        "euler",
+        "karras",
+        0.8
+      ]
+    },
+    {
+      "id": 71,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1720.4151431184123,
+        -83.21500998500554
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 113,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            118,
+            138,
+            213
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "mountain"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 73,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1716.4151431184123,
+        403.7849900149946
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 115
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            120,
+            140,
+            215
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "waterfall"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 75,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1716.4151431184123,
+        886.7849900149945
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 117
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            122,
+            151,
+            217
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "volcano"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 79,
+      "type": "ConditioningCombine",
+      "pos": [
+        2530.4151431184123,
+        1506.7849900149945
+      ],
+      "size": [
+        228.39999389648438,
+        46
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning_1",
+          "type": "CONDITIONING",
+          "link": 138,
+          "slot_index": 0
+        },
+        {
+          "name": "conditioning_2",
+          "type": "CONDITIONING",
+          "link": 139,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            133
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 80,
+      "type": "ConditioningCombine",
+      "pos": [
+        2528.4151431184123,
+        1597.7849900149945
+      ],
+      "size": [
+        228.39999389648438,
+        46
+      ],
+      "flags": {},
+      "order": 57,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning_1",
+          "type": "CONDITIONING",
+          "link": 133,
+          "slot_index": 0
+        },
+        {
+          "name": "conditioning_2",
+          "type": "CONDITIONING",
+          "link": 140
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            134
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 81,
+      "type": "ConditioningCombine",
+      "pos": [
+        2526.4151431184123,
+        1694.7849900149945
+      ],
+      "size": [
+        228.39999389648438,
+        46
+      ],
+      "flags": {},
+      "order": 68,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning_1",
+          "type": "CONDITIONING",
+          "link": 134,
+          "slot_index": 0
+        },
+        {
+          "name": "conditioning_2",
+          "type": "CONDITIONING",
+          "link": 152,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            144
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 82,
+      "type": "ConditioningCombine",
+      "pos": [
+        2528.4151431184123,
+        1785.7849900149945
+      ],
+      "size": [
+        228.39999389648438,
+        46
+      ],
+      "flags": {},
+      "order": 72,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning_1",
+          "type": "CONDITIONING",
+          "link": 144,
+          "slot_index": 0
+        },
+        {
+          "name": "conditioning_2",
+          "type": "CONDITIONING",
+          "link": 151,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            136
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 87,
+      "type": "PreviewImage",
+      "pos": [
+        3900.3194603341653,
+        -230.26325789324284
+      ],
+      "size": [
+        459.066916725852,
+        285.19741335782135
+      ],
+      "flags": {},
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 154,
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 91,
+      "type": "PreviewImage",
+      "pos": [
+        3898.059460334165,
+        454.7567421067575
+      ],
+      "size": {
+        "0": 459.0669250488281,
+        "1": 285.1974182128906
+      },
+      "flags": {},
+      "order": 84,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 158,
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 95,
+      "type": "PreviewImage",
+      "pos": [
+        3903.059460334166,
+        1134.1687421067575
+      ],
+      "size": {
+        "0": 459.0669250488281,
+        "1": 285.1974182128906
+      },
+      "flags": {},
+      "order": 90,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 156,
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 89,
+      "type": "PreviewImage",
+      "pos": [
+        3900.3194603341653,
+        108.73674210675716
+      ],
+      "size": {
+        "0": 459.0669250488281,
+        "1": 285.1974182128906
+      },
+      "flags": {},
+      "order": 80,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 159,
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 88,
+      "type": "VAEDecode",
+      "pos": [
+        3602.3607826482057,
+        106.62103962741841
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 76,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 160,
+          "slot_index": 0
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 164,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            159
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 94,
+      "type": "VAEDecode",
+      "pos": [
+        3604.8394603341544,
+        1132.2167421067584
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 86,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 173,
+          "slot_index": 0
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 168,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            156
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 86,
+      "type": "VAEDecode",
+      "pos": [
+        3601.8394603341544,
+        -231.78325789324282
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 59,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 153,
+          "slot_index": 0
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 155,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            154
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 39,
+      "type": "Float",
+      "pos": [
+        595,
+        1905.834469629713
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            34
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        0
+      ]
+    },
+    {
+      "id": 68,
+      "type": "LatentComposite",
+      "pos": [
+        3080.5264971304355,
+        668.5074357575246
+      ],
+      "size": [
+        315,
+        126
+      ],
+      "flags": {},
+      "order": 75,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples_to",
+          "type": "LATENT",
+          "link": 94,
+          "slot_index": 0
+        },
+        {
+          "name": "samples_from",
+          "type": "LATENT",
+          "link": 95,
+          "slot_index": 1
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "link": 104,
+          "widget": {
+            "name": "x",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          }
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "link": 105,
+          "widget": {
+            "name": "y",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          },
+          "slot_index": 3
+        },
+        {
+          "name": "feather",
+          "type": "INT",
+          "link": 110,
+          "widget": {
+            "name": "feather",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          },
+          "slot_index": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            96,
+            161
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 43,
+      "type": "EmptyLatentImage",
+      "pos": [
+        1310,
+        339
+      ],
+      "size": {
+        "0": 210,
+        "1": 78
+      },
+      "flags": {},
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 41,
+          "widget": {
+            "name": "width",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 0
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 42,
+          "widget": {
+            "name": "height",
+            "config": [
+              "INT",
+              {
+                "default": 512,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            84
+          ]
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        512,
+        512,
+        1
+      ]
+    },
+    {
+      "id": 64,
+      "type": "KSampler",
+      "pos": [
+        2568.4151431184123,
+        1169.7849900149945
+      ],
+      "size": [
+        315,
+        262
+      ],
+      "flags": {},
+      "order": 64,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 127,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 122
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 88,
+          "slot_index": 2
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 84,
+          "slot_index": 3
+        },
+        {
+          "name": "denoise",
+          "type": "FLOAT",
+          "link": 132,
+          "widget": {
+            "name": "denoise",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": 0,
+                "max": 1,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            99
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        541694910436437,
+        true,
+        20,
+        8,
+        "euler",
+        "karras",
+        0.8
+      ]
+    },
+    {
+      "id": 93,
+      "type": "PreviewImage",
+      "pos": [
+        3897.839460334162,
+        794.2167421067576
+      ],
+      "size": {
+        "0": 459.0669250488281,
+        "1": 285.1974182128906
+      },
+      "flags": {},
+      "order": 87,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 157,
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 63,
+      "type": "KSampler",
+      "pos": [
+        2567.4151431184123,
+        856.7849900149945
+      ],
+      "size": [
+        315,
+        262
+      ],
+      "flags": {},
+      "order": 65,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 126
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 121,
+          "slot_index": 1
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 87
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 83,
+          "slot_index": 3
+        },
+        {
+          "name": "denoise",
+          "type": "FLOAT",
+          "link": 131,
+          "widget": {
+            "name": "denoise",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": 0,
+                "max": 1,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            97
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1073124995414464,
+        true,
+        20,
+        8,
+        "euler",
+        "karras",
+        0.8
+      ]
+    },
+    {
+      "id": 24,
+      "type": "Divide",
+      "pos": [
+        599,
+        1120
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 22,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            21,
+            25
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 53,
+      "type": "Integer",
+      "pos": [
+        2552.4605674062755,
+        -505.1195524137916
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            108,
+            109,
+            110,
+            111
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Feather",
+      "properties": {},
+      "widgets_values": [
+        32
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 92,
+      "type": "VAEDecode",
+      "pos": [
+        3599.8394603341544,
+        791.2167421067576
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 83,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 184,
+          "slot_index": 0
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 167,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            157
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 90,
+      "type": "VAEDecode",
+      "pos": [
+        3599.8394603341544,
+        453.2167421067573
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 79,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 161,
+          "slot_index": 0
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 166,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            158
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 69,
+      "type": "LatentComposite",
+      "pos": [
+        3074.161114449777,
+        850.8396644365444
+      ],
+      "size": [
+        315,
+        126
+      ],
+      "flags": {},
+      "order": 78,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples_to",
+          "type": "LATENT",
+          "link": 96,
+          "slot_index": 0
+        },
+        {
+          "name": "samples_from",
+          "type": "LATENT",
+          "link": 97,
+          "slot_index": 1
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "link": 102,
+          "widget": {
+            "name": "x",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          }
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "link": 103,
+          "widget": {
+            "name": "y",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          },
+          "slot_index": 3
+        },
+        {
+          "name": "feather",
+          "type": "INT",
+          "link": 111,
+          "widget": {
+            "name": "feather",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            98,
+            184
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 70,
+      "type": "LatentComposite",
+      "pos": [
+        3071.161114449777,
+        1038.8396644365444
+      ],
+      "size": [
+        315,
+        126
+      ],
+      "flags": {},
+      "order": 82,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples_to",
+          "type": "LATENT",
+          "link": 98,
+          "slot_index": 0
+        },
+        {
+          "name": "samples_from",
+          "type": "LATENT",
+          "link": 99,
+          "slot_index": 1
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "link": 100,
+          "widget": {
+            "name": "x",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          }
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "link": 101,
+          "widget": {
+            "name": "y",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          },
+          "slot_index": 3
+        },
+        {
+          "name": "feather",
+          "type": "INT",
+          "link": 108,
+          "widget": {
+            "name": "feather",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          },
+          "slot_index": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            112,
+            173
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 18,
+      "type": "Divide",
+      "pos": [
+        602,
+        751
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 15,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            14,
+            19
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 97,
+      "type": "Int debug print",
+      "pos": [
+        1236,
+        1359
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 46,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "INT",
+          "link": 177,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "INT",
+              {
+                "default": 1,
+                "min": -9223372036854776000,
+                "max": 9223372036854776000,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "3 img X_Offset",
+        1
+      ]
+    },
+    {
+      "id": 99,
+      "type": "Int debug print",
+      "pos": [
+        1236,
+        1488
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 66,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "INT",
+          "link": 176,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "INT",
+              {
+                "default": 1,
+                "min": -9223372036854776000,
+                "max": 9223372036854776000,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "3 img Y_Offset",
+        1
+      ]
+    },
+    {
+      "id": 98,
+      "type": "Int debug print",
+      "pos": [
+        1232,
+        1234
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 55,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "INT",
+          "link": 178,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "INT",
+              {
+                "default": 1,
+                "min": -9223372036854776000,
+                "max": 9223372036854776000,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "3rd image Height",
+        1
+      ]
+    },
+    {
+      "id": 96,
+      "type": "Int debug print",
+      "pos": [
+        1236,
+        1107
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "INT",
+          "link": 175,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "INT",
+              {
+                "default": 1,
+                "min": -9223372036854776000,
+                "max": 9223372036854776000,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "3rd image Width",
+        1
+      ]
+    },
+    {
+      "id": 67,
+      "type": "LatentComposite",
+      "pos": [
+        3088.021114449773,
+        489.86766443654443
+      ],
+      "size": [
+        315,
+        126
+      ],
+      "flags": {},
+      "order": 71,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples_to",
+          "type": "LATENT",
+          "link": 93,
+          "slot_index": 0
+        },
+        {
+          "name": "samples_from",
+          "type": "LATENT",
+          "link": 149,
+          "slot_index": 1
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "link": 106,
+          "widget": {
+            "name": "x",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          }
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "link": 107,
+          "widget": {
+            "name": "y",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          }
+        },
+        {
+          "name": "feather",
+          "type": "INT",
+          "link": 109,
+          "widget": {
+            "name": "feather",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 8
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            94,
+            160
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 66,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1730.0101397900771,
+        -345.6200133133407
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 86,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            87,
+            88,
+            89,
+            90,
+            92,
+            137,
+            228
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "CLIPTextEncode NEGATIVE",
+      "properties": {},
+      "widgets_values": [
+        "embedding:vb6400"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 56,
+      "type": "KSampler",
+      "pos": [
+        2575,
+        -75
+      ],
+      "size": [
+        315,
+        262
+      ],
+      "flags": {},
+      "order": 48,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 124,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 118
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 92
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 77,
+          "slot_index": 3
+        },
+        {
+          "name": "denoise",
+          "type": "FLOAT",
+          "link": 128,
+          "widget": {
+            "name": "denoise",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": 0,
+                "max": 1,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            93,
+            153
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        224234436474347,
+        true,
+        20,
+        8,
+        "euler",
+        "karras",
+        0.8
+      ]
+    },
+    {
+      "id": 78,
+      "type": "Float",
+      "pos": [
+        1010.7520350726502,
+        -592.2045691421498
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            128,
+            129,
+            130,
+            131,
+            132
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Medium Denoise",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 4,
+      "type": "Float",
+      "pos": [
+        -45,
+        -442
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            2,
+            5,
+            15,
+            28,
+            182
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Float Height",
+      "properties": {},
+      "widgets_values": [
+        360
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 10,
+      "type": "Integer",
+      "pos": [
+        857.2397077576188,
+        164
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 7,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            37,
+            190
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 1 Width",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 11,
+      "type": "Integer",
+      "pos": [
+        862.3982708111996,
+        374.49213156639235
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            106,
+            192
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 1 Horizontal offset",
+      "properties": {},
+      "widgets_values": [
+        0
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 16,
+      "type": "Integer",
+      "pos": [
+        840.2264210237254,
+        636.6403308642596
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 12,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            35,
+            194
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 2 Width",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 22,
+      "type": "Integer",
+      "pos": [
+        846.6734533302615,
+        855.1324420588501
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 17,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            104,
+            196
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 2 Horizontal offset",
+      "properties": {},
+      "widgets_values": [
+        0
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 28,
+      "type": "Integer",
+      "pos": [
+        863,
+        1096
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 21,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            39,
+            175,
+            198
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 3 Width",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 29,
+      "type": "Integer",
+      "pos": [
+        867,
+        1307
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 25,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            102,
+            177,
+            200
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 3 Horizontal offset",
+      "properties": {},
+      "widgets_values": [
+        0
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 105,
+      "type": "ConditioningSetArea",
+      "pos": [
+        1709.9365976006297,
+        -1160.364533355959
+      ],
+      "size": {
+        "0": 317.4000244140625,
+        "1": 154
+      },
+      "flags": {},
+      "order": 67,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 216
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 198,
+          "widget": {
+            "name": "width",
+            "config": [
+              "INT",
+              {
+                "default": 64,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          }
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 199,
+          "widget": {
+            "name": "height",
+            "config": [
+              "INT",
+              {
+                "default": 64,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 2
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "link": 200,
+          "widget": {
+            "name": "x",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          }
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "link": 201,
+          "widget": {
+            "name": "y",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 4
+        },
+        {
+          "name": "strength",
+          "type": "FLOAT",
+          "link": 187,
+          "widget": {
+            "name": "strength",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": 0,
+                "max": 10,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            207
+          ]
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        64,
+        64,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 36,
+      "type": "Integer",
+      "pos": [
+        844,
+        1587.834469629713
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 32,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            41,
+            202
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 4 Width",
+      "properties": {},
+      "widgets_values": [
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 37,
+      "type": "Integer",
+      "pos": [
+        847.4620586025549,
+        1798.669385277551
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 31,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            100,
+            204
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Img 4 Horizontal offset",
+      "properties": {},
+      "widgets_values": [
+        0
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 54,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        1013,
+        -483
+      ],
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            68,
+            123,
+            124,
+            125,
+            126,
+            127,
+            232
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            86,
+            113,
+            114,
+            115,
+            116,
+            117
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": null
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "cheeseDaddys_41.safetensors"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 108,
+      "type": "ConditioningCombine",
+      "pos": [
+        2173.487401537336,
+        -1230.9991076862866
+      ],
+      "size": {
+        "0": 228.39999389648438,
+        "1": 46
+      },
+      "flags": {},
+      "order": 81,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning_1",
+          "type": "CONDITIONING",
+          "link": 209,
+          "slot_index": 0
+        },
+        {
+          "name": "conditioning_2",
+          "type": "CONDITIONING",
+          "link": 210,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 107,
+      "type": "ConditioningSetArea",
+      "pos": [
+        1702.9643220342325,
+        -1559.6819018526567
+      ],
+      "size": {
+        "0": 317.4000244140625,
+        "1": 154
+      },
+      "flags": {},
+      "order": 60,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 214
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 190,
+          "widget": {
+            "name": "width",
+            "config": [
+              "INT",
+              {
+                "default": 64,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          }
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 191,
+          "widget": {
+            "name": "height",
+            "config": [
+              "INT",
+              {
+                "default": 64,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 2
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "link": 192,
+          "widget": {
+            "name": "x",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          }
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "link": 193,
+          "widget": {
+            "name": "y",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 4
+        },
+        {
+          "name": "strength",
+          "type": "FLOAT",
+          "link": 189,
+          "widget": {
+            "name": "strength",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": 0,
+                "max": 10,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            209
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        64,
+        64,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 72,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1717.4151431184123,
+        159.78499001499435
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 114
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            119,
+            139,
+            214
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "sea"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 106,
+      "type": "ConditioningSetArea",
+      "pos": [
+        1705.93659760063,
+        -1361.3645333559596
+      ],
+      "size": {
+        "0": 317.4000244140625,
+        "1": 154
+      },
+      "flags": {},
+      "order": 63,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 215,
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 194,
+          "widget": {
+            "name": "width",
+            "config": [
+              "INT",
+              {
+                "default": 64,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          }
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 195,
+          "widget": {
+            "name": "height",
+            "config": [
+              "INT",
+              {
+                "default": 64,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 2
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "link": 196,
+          "widget": {
+            "name": "x",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          }
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "link": 197,
+          "widget": {
+            "name": "y",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 4
+        },
+        {
+          "name": "strength",
+          "type": "FLOAT",
+          "link": 188,
+          "widget": {
+            "name": "strength",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": 0,
+                "max": 10,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            208
+          ]
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        64,
+        64,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 74,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1714.4151431184123,
+        645.7849900149945
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 116
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            121,
+            152,
+            216
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "forest"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 102,
+      "type": "ConditioningSetArea",
+      "pos": [
+        1711,
+        -956
+      ],
+      "size": [
+        317.4000244140625,
+        154
+      ],
+      "flags": {},
+      "order": 58,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 217,
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 202,
+          "widget": {
+            "name": "width",
+            "config": [
+              "INT",
+              {
+                "default": 64,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          }
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 203,
+          "widget": {
+            "name": "height",
+            "config": [
+              "INT",
+              {
+                "default": 64,
+                "min": 64,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 2
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "link": 204,
+          "widget": {
+            "name": "x",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          }
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "link": 205,
+          "widget": {
+            "name": "y",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 8192,
+                "step": 64
+              }
+            ]
+          },
+          "slot_index": 4
+        },
+        {
+          "name": "strength",
+          "type": "FLOAT",
+          "link": 186,
+          "widget": {
+            "name": "strength",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": 0,
+                "max": 10,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            206
+          ]
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        64,
+        64,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 111,
+      "type": "ConditioningCombine",
+      "pos": [
+        2163,
+        -950
+      ],
+      "size": {
+        "0": 228.39999389648438,
+        "1": 46
+      },
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning_1",
+          "type": "CONDITIONING",
+          "link": 206,
+          "slot_index": 0
+        },
+        {
+          "name": "conditioning_2",
+          "type": "CONDITIONING",
+          "link": 213,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            212,
+            218
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 114,
+      "type": "Int to float",
+      "pos": [
+        2102.2646467940826,
+        -746.3243121892766
+      ],
+      "size": [
+        210,
+        34
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "INT",
+          "link": 220,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "INT",
+              {
+                "default": 1,
+                "min": -9223372036854776000,
+                "max": 9223372036854776000,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            219
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1
+      ]
+    },
+    {
+      "id": 113,
+      "type": "Divide",
+      "pos": [
+        2335.946692098238,
+        -722.238473204351
+      ],
+      "size": [
+        210,
+        54
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 219,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          }
+        },
+        {
+          "name": "Denominator",
+          "type": "FLOAT",
+          "link": 222,
+          "widget": {
+            "name": "Denominator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            221
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 112,
+      "type": "Conditioning area scale by ratio",
+      "pos": [
+        2577.946692098238,
+        -765.2384732043498
+      ],
+      "size": [
+        268.79998779296875,
+        78
+      ],
+      "flags": {},
+      "order": 74,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 218,
+          "slot_index": 0
+        },
+        {
+          "name": "modifier",
+          "type": "FLOAT",
+          "link": 221,
+          "widget": {
+            "name": "modifier",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            227
+          ]
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 55,
+      "type": "Integer",
+      "pos": [
+        1912,
+        -506
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            70,
+            220
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Upscale to width",
+      "properties": {},
+      "widgets_values": [
+        1366
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 84,
+      "type": "VAELoader",
+      "pos": [
+        3037,
+        -513
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            146,
+            155,
+            164,
+            166,
+            167,
+            168,
+            230
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "kl-f8-anime2.ckpt"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 52,
+      "type": "Latent Scale to side",
+      "pos": [
+        3078,
+        1221
+      ],
+      "size": {
+        "0": 315,
+        "1": 130
+      },
+      "flags": {},
+      "order": 85,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": 112,
+          "slot_index": 0
+        },
+        {
+          "name": "side_length",
+          "type": "INT",
+          "link": 70,
+          "widget": {
+            "name": "side_length",
+            "config": [
+              "INT",
+              {
+                "default": 1,
+                "min": -9223372036854776000,
+                "max": 9223372036854776000,
+                "step": 1
+              }
+            ]
+          },
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            62,
+            233
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        "Width",
+        "area",
+        "disabled"
+      ]
+    },
+    {
+      "id": 115,
+      "type": "KSampler",
+      "pos": [
+        4423.993308231218,
+        -1190.868236651361
+      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 89,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 232,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 227,
+          "slot_index": 1
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 228,
+          "slot_index": 2
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 233,
+          "slot_index": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            229
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        332593483159933,
+        true,
+        30,
+        8,
+        "euler",
+        "karras",
+        0.8599999999999999
+      ]
+    },
+    {
+      "id": 109,
+      "type": "ConditioningCombine",
+      "pos": [
+        2173,
+        -1140
+      ],
+      "size": {
+        "0": 228.39999389648438,
+        "1": 46
+      },
+      "flags": {},
+      "order": 77,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning_1",
+          "type": "CONDITIONING",
+          "link": 208,
+          "slot_index": 0
+        },
+        {
+          "name": "conditioning_2",
+          "type": "CONDITIONING",
+          "link": 211,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            210
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 110,
+      "type": "ConditioningCombine",
+      "pos": [
+        2174,
+        -1047
+      ],
+      "size": {
+        "0": 228.39999389648438,
+        "1": 46
+      },
+      "flags": {},
+      "order": 73,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning_1",
+          "type": "CONDITIONING",
+          "link": 207,
+          "slot_index": 0
+        },
+        {
+          "name": "conditioning_2",
+          "type": "CONDITIONING",
+          "link": 212,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            211
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 117,
+      "type": "VAEDecode",
+      "pos": [
+        4446.813167618683,
+        -869.4452498645267
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 92,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 229,
+          "slot_index": 0
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 230,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            231
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 118,
+      "type": "PreviewImage",
+      "pos": [
+        4788.813167618684,
+        -1177.4452498645264
+      ],
+      "size": {
+        "0": 1318.5909423828125,
+        "1": 774.42626953125
+      },
+      "flags": {},
+      "order": 94,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 231
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 100,
+      "type": "Divide",
+      "pos": [
+        596,
+        1232
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Numerator",
+          "type": "FLOAT",
+          "link": 182,
+          "widget": {
+            "name": "Numerator",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            180,
+            234,
+            235
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 119,
+      "type": "Sum",
+      "pos": [
+        605,
+        1403
+      ],
+      "size": [
+        210,
+        54
+      ],
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value_A",
+          "type": "FLOAT",
+          "link": 234,
+          "widget": {
+            "name": "Value_A",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          }
+        },
+        {
+          "name": "Value_B",
+          "type": "FLOAT",
+          "link": 235,
+          "widget": {
+            "name": "Value_B",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            236
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 83,
+      "type": "VAEDecode",
+      "pos": [
+        4467.791025981639,
+        29.696263795784944
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 91,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 145,
+          "slot_index": 0
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 146
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            147
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 85,
+      "type": "PreviewImage",
+      "pos": [
+        4780.791025981639,
+        -278.3037362042151
+      ],
+      "size": [
+        1318.5909179687496,
+        774.4262542724607
+      ],
+      "flags": {},
+      "order": 93,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 147
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 50,
+      "type": "KSampler",
+      "pos": [
+        4439.284552790346,
+        -278.4196641066845
+      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 88,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 68
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 136
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 137,
+          "slot_index": 2
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 62,
+          "slot_index": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            145
+          ]
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        1091259184440943,
+        true,
+        30,
+        8,
+        "euler",
+        "karras",
+        0.7
+      ]
+    },
+    {
+      "id": 104,
+      "type": "Float",
+      "pos": [
+        1011.7282933406514,
+        -708.3635229621497
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            186,
+            187,
+            188,
+            189
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Strength",
+      "properties": {},
+      "widgets_values": [
+        1.8800000000000008
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    }
+  ],
+  "links": [
+    [
+      1,
+      5,
+      0,
+      1,
+      0,
+      "FLOAT"
+    ],
+    [
+      2,
+      4,
+      0,
+      2,
+      0,
+      "FLOAT"
+    ],
+    [
+      4,
+      6,
+      0,
+      7,
+      0,
+      "FLOAT"
+    ],
+    [
+      5,
+      4,
+      0,
+      6,
+      0,
+      "FLOAT"
+    ],
+    [
+      6,
+      6,
+      0,
+      8,
+      0,
+      "FLOAT"
+    ],
+    [
+      7,
+      5,
+      0,
+      10,
+      0,
+      "FLOAT"
+    ],
+    [
+      8,
+      7,
+      0,
+      9,
+      0,
+      "FLOAT"
+    ],
+    [
+      12,
+      13,
+      0,
+      16,
+      0,
+      "FLOAT"
+    ],
+    [
+      13,
+      5,
+      0,
+      13,
+      0,
+      "FLOAT"
+    ],
+    [
+      14,
+      18,
+      0,
+      17,
+      0,
+      "FLOAT"
+    ],
+    [
+      15,
+      4,
+      0,
+      18,
+      0,
+      "FLOAT"
+    ],
+    [
+      16,
+      13,
+      0,
+      20,
+      0,
+      "FLOAT"
+    ],
+    [
+      17,
+      20,
+      0,
+      22,
+      0,
+      "FLOAT"
+    ],
+    [
+      19,
+      18,
+      0,
+      23,
+      0,
+      "FLOAT"
+    ],
+    [
+      20,
+      23,
+      0,
+      21,
+      0,
+      "FLOAT"
+    ],
+    [
+      21,
+      24,
+      0,
+      28,
+      0,
+      "FLOAT"
+    ],
+    [
+      22,
+      5,
+      0,
+      24,
+      0,
+      "FLOAT"
+    ],
+    [
+      25,
+      24,
+      0,
+      29,
+      0,
+      "FLOAT"
+    ],
+    [
+      28,
+      4,
+      0,
+      31,
+      0,
+      "FLOAT"
+    ],
+    [
+      29,
+      5,
+      0,
+      32,
+      0,
+      "FLOAT"
+    ],
+    [
+      30,
+      32,
+      0,
+      33,
+      0,
+      "FLOAT"
+    ],
+    [
+      31,
+      33,
+      0,
+      37,
+      0,
+      "FLOAT"
+    ],
+    [
+      32,
+      32,
+      0,
+      36,
+      0,
+      "FLOAT"
+    ],
+    [
+      33,
+      31,
+      0,
+      34,
+      0,
+      "FLOAT"
+    ],
+    [
+      34,
+      39,
+      0,
+      35,
+      0,
+      "FLOAT"
+    ],
+    [
+      35,
+      16,
+      0,
+      40,
+      0,
+      "INT"
+    ],
+    [
+      36,
+      17,
+      0,
+      40,
+      1,
+      "INT"
+    ],
+    [
+      37,
+      10,
+      0,
+      41,
+      0,
+      "INT"
+    ],
+    [
+      38,
+      8,
+      0,
+      41,
+      1,
+      "INT"
+    ],
+    [
+      39,
+      28,
+      0,
+      42,
+      0,
+      "INT"
+    ],
+    [
+      40,
+      26,
+      0,
+      42,
+      1,
+      "INT"
+    ],
+    [
+      41,
+      36,
+      0,
+      43,
+      0,
+      "INT"
+    ],
+    [
+      42,
+      34,
+      0,
+      43,
+      1,
+      "INT"
+    ],
+    [
+      43,
+      1,
+      0,
+      44,
+      0,
+      "INT"
+    ],
+    [
+      44,
+      2,
+      0,
+      44,
+      1,
+      "INT"
+    ],
+    [
+      62,
+      52,
+      0,
+      50,
+      3,
+      "LATENT"
+    ],
+    [
+      68,
+      54,
+      0,
+      50,
+      0,
+      "MODEL"
+    ],
+    [
+      70,
+      55,
+      0,
+      52,
+      1,
+      "INT"
+    ],
+    [
+      77,
+      44,
+      0,
+      56,
+      3,
+      "LATENT"
+    ],
+    [
+      81,
+      41,
+      0,
+      61,
+      3,
+      "LATENT"
+    ],
+    [
+      82,
+      40,
+      0,
+      62,
+      3,
+      "LATENT"
+    ],
+    [
+      83,
+      42,
+      0,
+      63,
+      3,
+      "LATENT"
+    ],
+    [
+      84,
+      43,
+      0,
+      64,
+      3,
+      "LATENT"
+    ],
+    [
+      86,
+      54,
+      1,
+      66,
+      0,
+      "CLIP"
+    ],
+    [
+      87,
+      66,
+      0,
+      63,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      88,
+      66,
+      0,
+      64,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      89,
+      66,
+      0,
+      62,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      90,
+      66,
+      0,
+      61,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      92,
+      66,
+      0,
+      56,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      93,
+      56,
+      0,
+      67,
+      0,
+      "LATENT"
+    ],
+    [
+      94,
+      67,
+      0,
+      68,
+      0,
+      "LATENT"
+    ],
+    [
+      95,
+      62,
+      0,
+      68,
+      1,
+      "LATENT"
+    ],
+    [
+      96,
+      68,
+      0,
+      69,
+      0,
+      "LATENT"
+    ],
+    [
+      97,
+      63,
+      0,
+      69,
+      1,
+      "LATENT"
+    ],
+    [
+      98,
+      69,
+      0,
+      70,
+      0,
+      "LATENT"
+    ],
+    [
+      99,
+      64,
+      0,
+      70,
+      1,
+      "LATENT"
+    ],
+    [
+      100,
+      37,
+      0,
+      70,
+      2,
+      "INT"
+    ],
+    [
+      101,
+      35,
+      0,
+      70,
+      3,
+      "INT"
+    ],
+    [
+      102,
+      29,
+      0,
+      69,
+      2,
+      "INT"
+    ],
+    [
+      103,
+      27,
+      0,
+      69,
+      3,
+      "INT"
+    ],
+    [
+      104,
+      22,
+      0,
+      68,
+      2,
+      "INT"
+    ],
+    [
+      105,
+      21,
+      0,
+      68,
+      3,
+      "INT"
+    ],
+    [
+      106,
+      11,
+      0,
+      67,
+      2,
+      "INT"
+    ],
+    [
+      107,
+      9,
+      0,
+      67,
+      3,
+      "INT"
+    ],
+    [
+      108,
+      53,
+      0,
+      70,
+      4,
+      "INT"
+    ],
+    [
+      109,
+      53,
+      0,
+      67,
+      4,
+      "INT"
+    ],
+    [
+      110,
+      53,
+      0,
+      68,
+      4,
+      "INT"
+    ],
+    [
+      111,
+      53,
+      0,
+      69,
+      4,
+      "INT"
+    ],
+    [
+      112,
+      70,
+      0,
+      52,
+      0,
+      "LATENT"
+    ],
+    [
+      113,
+      54,
+      1,
+      71,
+      0,
+      "CLIP"
+    ],
+    [
+      114,
+      54,
+      1,
+      72,
+      0,
+      "CLIP"
+    ],
+    [
+      115,
+      54,
+      1,
+      73,
+      0,
+      "CLIP"
+    ],
+    [
+      116,
+      54,
+      1,
+      74,
+      0,
+      "CLIP"
+    ],
+    [
+      117,
+      54,
+      1,
+      75,
+      0,
+      "CLIP"
+    ],
+    [
+      118,
+      71,
+      0,
+      56,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      119,
+      72,
+      0,
+      61,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      120,
+      73,
+      0,
+      62,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      121,
+      74,
+      0,
+      63,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      122,
+      75,
+      0,
+      64,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      123,
+      54,
+      0,
+      61,
+      0,
+      "MODEL"
+    ],
+    [
+      124,
+      54,
+      0,
+      56,
+      0,
+      "MODEL"
+    ],
+    [
+      125,
+      54,
+      0,
+      62,
+      0,
+      "MODEL"
+    ],
+    [
+      126,
+      54,
+      0,
+      63,
+      0,
+      "MODEL"
+    ],
+    [
+      127,
+      54,
+      0,
+      64,
+      0,
+      "MODEL"
+    ],
+    [
+      128,
+      78,
+      0,
+      56,
+      4,
+      "FLOAT"
+    ],
+    [
+      129,
+      78,
+      0,
+      61,
+      4,
+      "FLOAT"
+    ],
+    [
+      130,
+      78,
+      0,
+      62,
+      4,
+      "FLOAT"
+    ],
+    [
+      131,
+      78,
+      0,
+      63,
+      4,
+      "FLOAT"
+    ],
+    [
+      132,
+      78,
+      0,
+      64,
+      4,
+      "FLOAT"
+    ],
+    [
+      133,
+      79,
+      0,
+      80,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      134,
+      80,
+      0,
+      81,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      136,
+      82,
+      0,
+      50,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      137,
+      66,
+      0,
+      50,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      138,
+      71,
+      0,
+      79,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      139,
+      72,
+      0,
+      79,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      140,
+      73,
+      0,
+      80,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      144,
+      81,
+      0,
+      82,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      145,
+      50,
+      0,
+      83,
+      0,
+      "LATENT"
+    ],
+    [
+      146,
+      84,
+      0,
+      83,
+      1,
+      "VAE"
+    ],
+    [
+      147,
+      83,
+      0,
+      85,
+      0,
+      "IMAGE"
+    ],
+    [
+      149,
+      61,
+      0,
+      67,
+      1,
+      "LATENT"
+    ],
+    [
+      151,
+      75,
+      0,
+      82,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      152,
+      74,
+      0,
+      81,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      153,
+      56,
+      0,
+      86,
+      0,
+      "LATENT"
+    ],
+    [
+      154,
+      86,
+      0,
+      87,
+      0,
+      "IMAGE"
+    ],
+    [
+      155,
+      84,
+      0,
+      86,
+      1,
+      "VAE"
+    ],
+    [
+      156,
+      94,
+      0,
+      95,
+      0,
+      "IMAGE"
+    ],
+    [
+      157,
+      92,
+      0,
+      93,
+      0,
+      "IMAGE"
+    ],
+    [
+      158,
+      90,
+      0,
+      91,
+      0,
+      "IMAGE"
+    ],
+    [
+      159,
+      88,
+      0,
+      89,
+      0,
+      "IMAGE"
+    ],
+    [
+      160,
+      67,
+      0,
+      88,
+      0,
+      "LATENT"
+    ],
+    [
+      161,
+      68,
+      0,
+      90,
+      0,
+      "LATENT"
+    ],
+    [
+      164,
+      84,
+      0,
+      88,
+      1,
+      "VAE"
+    ],
+    [
+      166,
+      84,
+      0,
+      90,
+      1,
+      "VAE"
+    ],
+    [
+      167,
+      84,
+      0,
+      92,
+      1,
+      "VAE"
+    ],
+    [
+      168,
+      84,
+      0,
+      94,
+      1,
+      "VAE"
+    ],
+    [
+      173,
+      70,
+      0,
+      94,
+      0,
+      "LATENT"
+    ],
+    [
+      175,
+      28,
+      0,
+      96,
+      0,
+      "INT"
+    ],
+    [
+      176,
+      27,
+      0,
+      99,
+      0,
+      "INT"
+    ],
+    [
+      177,
+      29,
+      0,
+      97,
+      0,
+      "INT"
+    ],
+    [
+      178,
+      26,
+      0,
+      98,
+      0,
+      "INT"
+    ],
+    [
+      180,
+      100,
+      0,
+      26,
+      0,
+      "FLOAT"
+    ],
+    [
+      182,
+      4,
+      0,
+      100,
+      0,
+      "FLOAT"
+    ],
+    [
+      184,
+      69,
+      0,
+      92,
+      0,
+      "LATENT"
+    ],
+    [
+      186,
+      104,
+      0,
+      102,
+      5,
+      "FLOAT"
+    ],
+    [
+      187,
+      104,
+      0,
+      105,
+      5,
+      "FLOAT"
+    ],
+    [
+      188,
+      104,
+      0,
+      106,
+      5,
+      "FLOAT"
+    ],
+    [
+      189,
+      104,
+      0,
+      107,
+      5,
+      "FLOAT"
+    ],
+    [
+      190,
+      10,
+      0,
+      107,
+      1,
+      "INT"
+    ],
+    [
+      191,
+      8,
+      0,
+      107,
+      2,
+      "INT"
+    ],
+    [
+      192,
+      11,
+      0,
+      107,
+      3,
+      "INT"
+    ],
+    [
+      193,
+      9,
+      0,
+      107,
+      4,
+      "INT"
+    ],
+    [
+      194,
+      16,
+      0,
+      106,
+      1,
+      "INT"
+    ],
+    [
+      195,
+      17,
+      0,
+      106,
+      2,
+      "INT"
+    ],
+    [
+      196,
+      22,
+      0,
+      106,
+      3,
+      "INT"
+    ],
+    [
+      197,
+      21,
+      0,
+      106,
+      4,
+      "INT"
+    ],
+    [
+      198,
+      28,
+      0,
+      105,
+      1,
+      "INT"
+    ],
+    [
+      199,
+      26,
+      0,
+      105,
+      2,
+      "INT"
+    ],
+    [
+      200,
+      29,
+      0,
+      105,
+      3,
+      "INT"
+    ],
+    [
+      201,
+      27,
+      0,
+      105,
+      4,
+      "INT"
+    ],
+    [
+      202,
+      36,
+      0,
+      102,
+      1,
+      "INT"
+    ],
+    [
+      203,
+      34,
+      0,
+      102,
+      2,
+      "INT"
+    ],
+    [
+      204,
+      37,
+      0,
+      102,
+      3,
+      "INT"
+    ],
+    [
+      205,
+      35,
+      0,
+      102,
+      4,
+      "INT"
+    ],
+    [
+      206,
+      102,
+      0,
+      111,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      207,
+      105,
+      0,
+      110,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      208,
+      106,
+      0,
+      109,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      209,
+      107,
+      0,
+      108,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      210,
+      109,
+      0,
+      108,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      211,
+      110,
+      0,
+      109,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      212,
+      111,
+      0,
+      110,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      213,
+      71,
+      0,
+      111,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      214,
+      72,
+      0,
+      107,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      215,
+      73,
+      0,
+      106,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      216,
+      74,
+      0,
+      105,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      217,
+      75,
+      0,
+      102,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      218,
+      111,
+      0,
+      112,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      219,
+      114,
+      0,
+      113,
+      0,
+      "FLOAT"
+    ],
+    [
+      220,
+      55,
+      0,
+      114,
+      0,
+      "INT"
+    ],
+    [
+      221,
+      113,
+      0,
+      112,
+      1,
+      "FLOAT"
+    ],
+    [
+      222,
+      5,
+      0,
+      113,
+      1,
+      "FLOAT"
+    ],
+    [
+      227,
+      112,
+      0,
+      115,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      228,
+      66,
+      0,
+      115,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      229,
+      115,
+      0,
+      117,
+      0,
+      "LATENT"
+    ],
+    [
+      230,
+      84,
+      0,
+      117,
+      1,
+      "VAE"
+    ],
+    [
+      231,
+      117,
+      0,
+      118,
+      0,
+      "IMAGE"
+    ],
+    [
+      232,
+      54,
+      0,
+      115,
+      0,
+      "MODEL"
+    ],
+    [
+      233,
+      52,
+      0,
+      115,
+      3,
+      "LATENT"
+    ],
+    [
+      234,
+      100,
+      0,
+      119,
+      0,
+      "FLOAT"
+    ],
+    [
+      235,
+      100,
+      0,
+      119,
+      1,
+      "FLOAT"
+    ],
+    [
+      236,
+      119,
+      0,
+      27,
+      0,
+      "FLOAT"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "Obj 1 sizes and offsets",
+      "bounding": [
+        576,
+        117,
+        513,
+        426
+      ],
+      "color": "#3f789e"
+    },
+    {
+      "title": "Canvas sizes",
+      "bounding": [
+        572,
+        -151,
+        247,
+        254
+      ],
+      "color": "#3f789e"
+    },
+    {
+      "title": "Obj 2 sizes and offsets",
+      "bounding": [
+        578,
+        564,
+        523,
+        463
+      ],
+      "color": "#3f789e"
+    },
+    {
+      "title": "Obj 3 sizes and offsets",
+      "bounding": [
+        574,
+        1041,
+        522,
+        451
+      ],
+      "color": "#3f789e"
+    },
+    {
+      "title": "Obj 4 sizes and offsets",
+      "bounding": [
+        573,
+        1509,
+        526,
+        481
+      ],
+      "color": "#3f789e"
+    },
+    {
+      "title": "Scaling condition areas",
+      "bounding": [
+        2089,
+        -831,
+        771,
+        203
+      ],
+      "color": "#A88"
+    },
+    {
+      "title": "Combined sampling",
+      "bounding": [
+        4412,
+        -1268,
+        1721,
+        878
+      ],
+      "color": "#3f789e"
+    },
+    {
+      "title": "LatentCombine sampling",
+      "bounding": [
+        4415,
+        -362,
+        1708,
+        879
+      ],
+      "color": "#3f789e"
+    },
+    {
+      "title": "Composition preview",
+      "bounding": [
+        3563,
+        -358,
+        814,
+        1800
+      ],
+      "color": "#3f789e"
+    }
+  ],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}

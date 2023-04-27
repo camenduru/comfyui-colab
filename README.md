@@ -7,7 +7,8 @@
 | Image | Json | Info
 | --- | --- | :---: |
 <img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/1.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/1.json) | For <br /> Lite <br /> Colab <br /> <br /> VAE <br /> and <br /> Upscale
-<img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/2.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/2.json) | Derfuu <br /> Comfyui <br /> Colab
+<img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/2.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/2.json) | Derfuu <br /> Comfyui <br /> Lite <br /> Colab
+<img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/4.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/4.json) | Derfuu <br /> Comfyui <br /> Nightly <br /> Colab
 <img src="https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/3.png" height="350" /> | [File](https://raw.githubusercontent.com/camenduru/comfyui-colab/main/template/3.json) | For <br /> Stable <br /> Colab <br /> <br /> ControlNet
 
 ## Tutorial Video
