@@ -149,6 +149,7 @@ https://www.youtube.com/watch?v=u9G8M2p60hU
 [https://comfyanonymous.github.io/ComfyUI_tutorial_vn](https://comfyanonymous.github.io/ComfyUI_tutorial_vn)
 
 ## Examples
+[https://comfyanonymous.github.io/ComfyUI_examples](https://comfyanonymous.github.io/ComfyUI_examples) <br />
 [https://github.com/comfyanonymous/ComfyUI_examples](https://github.com/comfyanonymous/ComfyUI_examples)
 
 ## Models License
