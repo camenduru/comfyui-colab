@@ -2,10 +2,6 @@
 🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br />
 🥳 Please join my patreon community https://patreon.com/camenduru <br />
 
-🐣 Please follow me for new updates https://twitter.com/camenduru <br />
-🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br />
-🥳 Please join my patreon community https://patreon.com/camenduru <br />
-
 ## ⚠ The Stable Diffusion community is starting to report that Google Colab is aggressively banning accounts. 😭
 ## ⚠ We are trying to understand what is happening because the [official statement](https://www.reddit.com/r/StableDiffusion/comments/12t8tc7/comment/jh2yhaz/?utm_source=share&utm_medium=web2x&context=3) was "No bans planned if you click through (will delete the VMs at some point)"
 ## ⚠ Please do not use any type of Stable Diffusion UI, such as #StableDiffusionWebUI, #ComfyUI, #StableSwarmUI with Google Colab. 
